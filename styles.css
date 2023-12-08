@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.posts-feet-header{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.posts-feet-header-h1{
+    background-color: white;
+    width: 50%;
+    font-family: Helvetica, sans-serif;
+}
+.posts-feet-body{
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feet{
+    background-color: white;
+    width: 50%;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.feet-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 3em;
+}
+.name{
+    display: flex;
+    align-items: center;
+    background-color:white;
+    width: 85%;
+}
+.name h2{
+    margin-left: .5em;
+    font-size: 1.2rem;
+}
+.date{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: white;
+    width: 15%;
+}
+.date p{
+    margin-right: .5em;
+    color: grey;
+}
+.feet-image img{
+    width: 100%;
+}
+feet-description{
+    width: 100%;
+}
+.feet-description p{
+    margin: 1em;
+}
